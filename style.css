@@ -1,0 +1,208 @@
+/* Paragraflar, hobiler, h1 ve summary özellikleri */
+
+.first-paragraph {
+    background-color: #ab9c73;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+summary {
+    font-size: 30px;
+    background-color: tan;
+}
+
+.second-paragraph {
+    background-color: #D2BE96;
+    color: black;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 23px;
+}
+
+.third-paragraph {
+    background-color: #e3dcc0;
+    color: brown;
+    text-transform: lowercase;
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.hobilerim {
+    font-size: 26px;
+}
+
+/* Education tablomuz */
+
+table.education {
+    font-family: Georgia, serif;
+    border: 1px solid #FFFFFF;
+    width: 930px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.education td, table.education th {
+    border: 1px solid #FFFFFF;
+    padding: 4px 4px;
+  }
+  table.education tbody td {
+    font-size: 13px;
+  }
+  table.education tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.education thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table.education thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+  table.education thead th:first-child {
+    border-left: none;
+  }
+
+/* Resume tablomuz */
+
+  table.resume {
+    font-family: "Palatino Linotype", serif;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    width: 930px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.resume td, table.resume th {
+    border: 2px solid #000000;
+    padding: 4px 4px;
+  }
+  table.resume tbody td {
+    font-size: 13px;
+  }
+  table.resume thead {
+    background: #CFCFCF;
+    background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    border-bottom: 3px solid #000000;
+  }
+  table.resume thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+
+/* Children's tablomuz */
+
+  table.childrens {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 930px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.childrens td, table.childrens th {
+    border: 2px solid #AAAAAA;
+    padding: 4px 4px;
+  }
+  table.childrens tbody td {
+    font-size: 13px;
+  }
+  table.childrens tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.childrens thead {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.childrens thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.childrens thead th:first-child {
+    border-left: none;
+  }
+
+/* Friends tablomuz */
+
+  table.friends {
+    font-family: Tahoma, Geneva, sans-serif;
+    border: 5px solid #000000;
+    background-color: #FFFFFF;
+    width: 930px;
+    text-align: center;
+  }
+  table.friends td, table.friends th {
+    border: 5px solid #000000;
+    padding: 4px 4px;
+  }
+  table.friends tbody td {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+  }
+  table.friends thead {
+    background: #C40000;
+  }
+  table.friends thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+/* Hobbies tablomuz */
+
+  table.hobbies {
+    font-family: "Lucida Console", Monaco, monospace;
+    border: 6px solid #6A7D8E;
+    background-color: #AEBBC7;
+    width: 930px;
+    text-align: center;
+  }
+  table.hobbies td, table.hobbies th {
+    border: 5px solid #C1D2D6;
+    padding: 4px 4px;
+  }
+  table.hobbies tbody td {
+    font-size: 13px;
+  }
+  table.hobbies td:nth-child(even) {
+    background: #C1CC89;
+  }
+  table.hobbies thead {
+    background: #AEBBC7;
+    background: -moz-linear-gradient(top, #c2ccd5 0%, #b6c1cc 66%, #AEBBC7 100%);
+    background: -webkit-linear-gradient(top, #c2ccd5 0%, #b6c1cc 66%, #AEBBC7 100%);
+    background: linear-gradient(to bottom, #c2ccd5 0%, #b6c1cc 66%, #AEBBC7 100%);
+  }
+  table.hobbies thead th {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* Arkaplan resmi */
+
+  body {
+    background-image: url("https://bit.ly/33G8gNI");
+
+  /* SON */
